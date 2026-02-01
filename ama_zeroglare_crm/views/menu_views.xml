@@ -1,0 +1,18 @@
+<odoo>
+
+    <record id="crm_estimation_menu_action" model="ir.actions.act_window">
+        <field name="name">Estimation</field>
+        <field name="res_model">crm.estimation</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="shipping_mode_menu_action" model="ir.actions.act_window">
+        <field name="name">Shipping Mode</field>
+        <field name="res_model">shipping.mode</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="menu_crm_estimation" action="crm_estimation_menu_action" parent="crm.crm_menu_root" sequence="10"/>
+    <menuitem id="menu_shipping_mode" action="shipping_mode_menu_action" parent="crm.crm_menu_config"/>
+
+</odoo>
