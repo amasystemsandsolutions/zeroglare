@@ -2,5 +2,6 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_crm_estimation,crm_estimation,model_crm_estimation,,1,1,1,1
 access_shipping_mode,shipping_mode,model_shipping_mode,,1,1,1,1
 access_bill_of_quantities,bill_of_quantities,model_bill_of_quantities,,1,1,1,1
+access_import_estimation_wizard,import_estimation_wizard,model_import_estimation_wizard,,1,1,1,1
 
 

@@ -4,7 +4,7 @@
         <field name="name">Estimation Tree View</field>
         <field name="model">crm.estimation</field>
         <field name="arch" type="xml">
-            <list string="Estimation">
+            <list string="Estimation" js_class="button_in_tree">
                 <field name="name"/>
                 <field name="currency_id"/>
                 <field name="shipping_mode_id"/>

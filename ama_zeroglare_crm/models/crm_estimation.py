@@ -5,6 +5,7 @@ class AMACRMEstimation(models.Model):
     _name = "crm.estimation"
     _inherit = ['mail.thread.main.attachment', 'mail.activity.mixin']
     _description = "Estimation"
+    _order = "id desc"
 
     name = fields.Char(string="Name", copy=False)
     currency_id = fields.Many2one("res.currency", string="Quotation Currency")

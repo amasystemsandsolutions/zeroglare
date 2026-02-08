@@ -14,7 +14,16 @@
         'views/crm_estimation_views.xml',
         'views/shipping_mode_views.xml',
         'views/menu_views.xml',
+
+        'wizard/import_estimation_wizard.xml',
     ],
+
+    'assets': {
+        'web.assets_backend': [
+            'ama_zeroglare_crm/static/src/xml/**/*',
+            'ama_zeroglare_crm/static/src/js/**/*',
+        ],
+    },
 
     'license': 'LGPL-3',
     'installable': True,
